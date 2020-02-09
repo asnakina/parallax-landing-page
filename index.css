@@ -1,0 +1,93 @@
+
+.header {
+	display: flex;
+	justify-content: space-between;
+}
+
+h1 {
+	font-size: 30pt;
+	text-align: right-top;
+	color: #92007B;
+	margin: 50px;
+	text-shadow: 3px 2px purple;
+	font: Alex Brush;
+	margin: 0;
+	padding: 20px;
+}
+
+                        /* Nav Bar */
+nav {
+	width: 40%;
+    display: flex;
+    justify-content: space-around;
+    word-spacing: 20px;	
+    font-size: 30pt;
+	text-align: right;
+	color: #92007B;
+	padding: 20px;
+	font: Alex Brush;
+	position: relative;
+	font-size: 22px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	color: rgb(109, 203, 211);
+}
+
+.projects:hover .projects-menu {
+	display: flex;
+}
+
+.projects-menu {
+	display: none;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: absolute;
+    top: 25px;
+    background-color: rgb(224, 245, 229);
+    width: 200px;
+}
+
+ul {
+	list-style: none;
+	position: absolute;
+	top: -20px;
+}
+
+                  /* Main part */
+h2 { 
+	font-size: 30pt;
+	text-align: center;
+    color: #000080;
+	text-shadow: 3px 2px white;
+}
+
+.parainner1 {
+	width: 100vw;
+	height: 50vh;
+	background:url('images/heron.jpg') fixed;
+	background-size: cover;
+	background-position: center bottom;
+}
+
+.parainner2 {
+	width: 100vw;
+	height: 50vh;
+	background: url('images/purpletree.jpg') fixed;
+	background-size: cover;
+	background-position: center center;
+}
+		
+.parainner3 {
+	width: 100vw;
+	height: 50vh;
+	background: url('images/pelicanwings.jpg') fixed;
+	background-size: cover;
+	background-position: center center;
+}
